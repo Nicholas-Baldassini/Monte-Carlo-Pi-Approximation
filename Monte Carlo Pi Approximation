@@ -1,0 +1,18 @@
+Pi can be approximated by calculating the ratio of the area of a circle
+to a square.
+
+If we have a circle of radius r enclosed by a square of side-length 2r, if
+we accurately the area of the circle along with the square and divide the circle
+by the square and multiply by 4 we can achieve an approximation of Pi.
+
+However, the current formula for area of a circle is Pi*r^2 but since we are
+calculating Pi we can not use it the formula for the area of the circle, so
+the method to approximate the area of the circle and square is by generating
+random points in the square and counting how many happen to be in the circle and
+divide the two numbers as both numbers would be approximations of the are of
+the circle and square.
+
+For a mathematical proof on this, search up "Monte Carlo Pi Approximation"
+or visit
+https://curiosity-driven.org/pi-approximation
+
